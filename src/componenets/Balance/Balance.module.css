@@ -1,0 +1,9 @@
+.balance {
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 38px;
+  line-height: 38px;
+  text-align: center;
+}

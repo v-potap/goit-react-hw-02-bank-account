@@ -1,0 +1,37 @@
+.controls {
+  width: 720px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(75, 75, 75);
+}
+
+.input {
+  color: #171718;
+  font-size: 16px;
+  min-height: 38px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid rgb(179, 179, 179);
+  flex-basis: 30%;
+  outline: 0;
+  transition: border-color 200ms ease-in-out;
+}
+
+.input:focus {
+  border-width: 2px;
+  border-color: rgb(38, 132, 255);
+}
+
+.button {
+  flex-basis: 25%;
+  display: block;
+  width: 30%;
+  min-height: 38px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid rgb(179, 179, 179);
+  cursor: pointer;
+}
